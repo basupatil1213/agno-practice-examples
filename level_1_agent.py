@@ -25,4 +25,3 @@ agent = Agent(
 agent.print_response("Say Hello", stream=True)
 # agent.print_response("What is the stock price of Apple?", stream=True)
 
-

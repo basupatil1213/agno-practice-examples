@@ -45,4 +45,6 @@ def get_top_hackernews_stories(num_stories: int = 5) -> str:
     return "\n".join(stories)
 
 agent = Agent(tools=[get_top_hackernews_stories])
+
 agent.print_response("Show me the top news from Hacker News")
+
